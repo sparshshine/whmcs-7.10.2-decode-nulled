@@ -62,6 +62,7 @@
                                             {$product.featuresdesc}
                                         </p>
                                     {/if}
+
                                     <ul>
                                         {foreach $product.features as $feature => $value}
                                             <li id="product{$product@iteration}-feature{$value@iteration}">
